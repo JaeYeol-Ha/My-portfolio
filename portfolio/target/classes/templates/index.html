@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" href="../style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Creativity Homepage</title>
+</head>
+<body>
+	<div th:replace="/fragments/header2.html :: fragment-header"></div>
+	<section>
+		<h1 class="mid">웹 백엔드 개발자 Createvity! (풀스택 일지도?)</h1>
+		<p>함께 개발하고 같이성장하고 싶어요</p>
+		<p>다양한 Skill을 가지고 있어요</p><br>
+		<p>궁금하시다면? 아래 클릭!</p>
+		<br>
+		<div class="mid">
+			<a href="./aboutme"><button class="white">자기소개</button></a>
+			<a href="./board/list"><button class="white">게시판</button></a>
+			<br>
+			<br> <img alt="지도"
+				src="/images/skill-tree.jpg"
+				style="width: 1280px; height: 853px; margin: 10px;">
+		</div>
+	</section>
+	<div th:replace="/fragments/footer.html :: fragment-footer"></div>
+</body>
+</html>

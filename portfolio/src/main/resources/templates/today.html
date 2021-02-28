@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Creativity Homepage</title>
+</head>
+<body>
+	<div th:replace="/fragments/header2.html :: fragment-header"></div>
+	<section>
+		<h1 style="text-align:center" th:text="|현재시간 : ${time}|"></h1>
+	</section>
+	<div th:replace="/fragments/footer.html :: fragment-footer"></div>
+</body>
+</html>
